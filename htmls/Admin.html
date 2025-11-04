@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EcoVators - Cooperative Society Dashboard</title>
+    <title>EcoVators - Admin Dashboard</title>
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/translator.css" />
     <link rel="stylesheet" href="../css/admin.css" />
@@ -117,13 +117,13 @@
             <div class="avatar">👨‍💼</div>
             <div class="admin-info">
               <h2 id="admin-name">Dr. Michael Green</h2>
-              <p id="admin-meta">FPO Administrator</p>
+              <p id="admin-meta">School Administrator</p>
               <p id="admin-org">Green Valley</p>
               <p id="admin-location">Kozhikode, Kerala</p>
             </div>
             <div class="org-stats">
-              <span class="stat-pill">🏫 1,250 farmers</span>
-              <span class="stat-pill">👨‍🏫 85 agri-experts</span>
+              <span class="stat-pill">🏫 1,250 students</span>
+              <span class="stat-pill">👨‍🏫 85 teachers</span>
               <span class="stat-pill">🌱 15 Departments</span>
             </div>
             <div class="quick-metrics">
@@ -161,14 +161,14 @@
               id="add-teacher"
               data-i18n="admin.quick_actions.add_agri_expert"
             >
-              Add Agri-Expert
+              Add Teacher
             </button>
             <button
               class="btn-outline full"
               id="add-student"
               data-i18n="admin.quick_actions.add_farmer"
             >
-              Add Farmer
+              Add Student
             </button>
             <button
               class="btn-outline full"
@@ -188,7 +188,7 @@
                 🏆 Village of the Month - Environmental Impact
               </div>
               <div class="achievement">
-                📈 25% Increase in Farmer Participation
+                📈 25% Increase in Student Participation
               </div>
               <div class="achievement">🌳 500+ Trees Planted This Month</div>
               <div class="achievement">♻️ Zero Waste Campus Achievement</div>
@@ -206,7 +206,7 @@
                 <div class="stat-card">
                   <div class="stat-number">1,250</div>
                   <div class="stat-label" data-i18n="admin.stats.total_farmers">
-                    Total Farmers
+                    Total Students
                   </div>
                   <div class="stat-change positive">+5.2%</div>
                 </div>
@@ -216,7 +216,7 @@
                     class="stat-label"
                     data-i18n="admin.stats.active_agri_experts"
                   >
-                    Active Agri-Experts
+                    Active Teachers
                   </div>
                   <div class="stat-change positive">+2.1%</div>
                 </div>
@@ -300,34 +300,34 @@
           <section class="grid-2" id="analytics">
             <div class="card department-performance">
               <h3 data-i18n="admin.department_performance">
-                <i class="fas fa-building"></i> Crop Performance
+                <i class="fas fa-building"></i> Department Performance
               </h3>
               <div class="dept-list">
                 <div class="dept-item">
                   <div class="dept-info">
-                    <div class="dept-name">Soil Health</div>
-                    <div class="dept-stats">45 farmers • 95% completion</div>
+                    <div class="dept-name">Environmental Science</div>
+                    <div class="dept-stats">45 students • 95% completion</div>
                   </div>
                   <div class="dept-score">98</div>
                 </div>
                 <div class="dept-item">
                   <div class="dept-info">
-                    <div class="dept-name">Water Management</div>
-                    <div class="dept-stats">38 farmers • 87% completion</div>
+                    <div class="dept-name">Biology</div>
+                    <div class="dept-stats">38 students • 87% completion</div>
                   </div>
                   <div class="dept-score">92</div>
                 </div>
                 <div class="dept-item">
                   <div class="dept-info">
-                    <div class="dept-name">Organic Inputs</div>
-                    <div class="dept-stats">42 farmers • 82% completion</div>
+                    <div class="dept-name">Chemistry</div>
+                    <div class="dept-stats">42 students • 82% completion</div>
                   </div>
                   <div class="dept-score">89</div>
                 </div>
                 <div class="dept-item">
                   <div class="dept-info">
-                    <div class="dept-name">Crop Diversity</div>
-                    <div class="dept-stats">35 farmers • 78% completion</div>
+                    <div class="dept-name">Geography</div>
+                    <div class="dept-stats">35 students • 78% completion</div>
                   </div>
                   <div class="dept-score">85</div>
                 </div>
@@ -345,7 +345,7 @@
                     class="analytic-label"
                     data-i18n="admin.analytics.active_farmers"
                   >
-                    Active Farmers
+                    Active Students
                   </div>
                 </div>
                 <div class="analytic-card">
@@ -473,7 +473,7 @@
                 <div class="transaction-item">
                   <div class="transaction-info">
                     <h4>Education Department</h4>
-                    <p>Farmer Participation Data</p>
+                    <p>Student Participation Data</p>
                     <p>Data Type: Engagement Metrics • Period: Nov 2024</p>
                     <span class="date">Dec 10, 2024 • 10:30 AM</span>
                   </div>
@@ -497,16 +497,16 @@
           <section class="grid-2" id="management">
             <div class="card teacher-management">
               <h3 data-i18n="admin.teacher_management">
-                <i class="fas fa-chalkboard-teacher"></i>Agri-Expert Management
+                <i class="fas fa-chalkboard-teacher"></i>Teacher Management
               </h3>
               <div class="search-bar">
                 <input type="text" placeholder="Search agri-experts..." />
                 <select class="class-filter">
                   <option>All Departments</option>
-                  <option>Pest & Diesease control</option>
-                  <option>Soil Health</option>
-                  <option>Water Management</option>
-                  <option>Organic Inputs</option>
+                  <option>Environmental Science</option>
+                  <option>Biology</option>
+                  <option>Chemistry</option>
+                  <option>Geography</option>
                 </select>
               </div>
               <div class="teacher-list">
@@ -514,7 +514,7 @@
                   <div class="teacher-avatar">👨‍🏫</div>
                   <div class="teacher-info">
                     <h4>Dr. Sarah Johnson</h4>
-                    <p>PHD in Science • Pulses, Cereals</p>
+                    <p>Environmental Science • Class 8</p>
                   </div>
                   <div class="teacher-actions">
                     <button class="btn-outline sm">Edit</button>
@@ -525,7 +525,7 @@
                   <div class="teacher-avatar">👩‍🏫</div>
                   <div class="teacher-info">
                     <h4>Prof. Michael Brown</h4>
-                    <p>PHD in Pest Control • Vegetables & Fruits</p>
+                    <p>Biology • Class 9</p>
                   </div>
                   <div class="teacher-actions">
                     <button class="btn-outline sm">Edit</button>
@@ -536,7 +536,7 @@
                   <div class="teacher-avatar">👨‍🔬</div>
                   <div class="teacher-info">
                     <h4>Dr. Emily Davis</h4>
-                    <p>PHD in Irrigation</p>
+                    <p>Chemistry</p>
                   </div>
                   <div class="teacher-actions">
                     <button class="btn-outline sm">Edit</button>
@@ -548,17 +548,17 @@
 
             <div class="card student-management">
               <h3 data-i18n="admin.farmer_management">
-                <i class="fas fa-user-graduate"></i> Farmer Management
+                <i class="fas fa-user-graduate"></i> Student Management
               </h3>
               <div class="search-bar">
                 <input type="text" placeholder="Search farmers..." />
                 <select class="class-filter">
                   <option>All Classes</option>
-                  <option>Pulses</option>
-                  <option>Pulses</option>
-                  <option>Fruits</option>
-                  <option>Vegetables</option>
-                  <option>Cash Crops</option>
+                  <option>Class 8</option>
+                  <option>Class 9</option>
+                  <option>Class 10</option>
+                  <option>Class 11</option>
+                  <option>Class 12</option>
                 </select>
               </div>
               <div class="student-list">
@@ -566,7 +566,7 @@
                   <div class="student-avatar">🌟</div>
                   <div class="student-info">
                     <h4>Arjun Patel</h4>
-                    <p>Groundnut • Tamil Nadu</p>
+                    <p>Class 9 • Environmental Science</p>
                   </div>
                   <div class="student-actions">
                     <span class="student-status active">Active</span>
@@ -577,7 +577,7 @@
                   <div class="student-avatar">⭐</div>
                   <div class="student-info">
                     <h4>Priya Sharma</h4>
-                    <p>Coconut • Kerala</p>
+                    <p>Class 10 • Biology</p>
                   </div>
                   <div class="student-actions">
                     <span class="student-status active">Active</span>
@@ -588,7 +588,7 @@
                   <div class="student-avatar">🎯</div>
                   <div class="student-info">
                     <h4>Raj Kumar</h4>
-                    <p>Soyabean • Gujarat</p>
+                    <p>Class 12 • Chemistry</p>
                   </div>
                   <div class="student-actions">
                     <span class="student-status active">Active</span>
@@ -695,7 +695,7 @@
                   <span>2 hours ago</span>
                 </li>
                 <li>
-                  👨‍🏫 Agri-Expert: 5 new submissions pending review
+                  👨‍🏫 Teacher: 5 new submissions pending review
                   <span>4 hours ago</span>
                 </li>
                 <li>
@@ -773,7 +773,7 @@
           </div>
           <div class="footer-links">
             <div class="footer-column">
-              <h3>FPO</h3>
+              <h3>Admin</h3>
               <a href="#analytics">Analytics</a>
               <a href="#transactions">Transactions</a>
               <a href="#management">Management</a>
@@ -1146,3 +1146,4 @@
     </script>
   </body>
 </html>
+
