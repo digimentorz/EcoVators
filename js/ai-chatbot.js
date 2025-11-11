@@ -23,13 +23,13 @@ const AIChatbot = {
                     <div class="chatbot-messages" id="chatbot-messages">
                         <div class="message bot-message">
                             <div class="message-content">
-                                Hello! I'm EcoBot, your sustainable farming assistant. How can I help you today?
+                                Hello! I'm EcoBot, your sustainability buddy. How can I help you today?
                             </div>
                             <div class="message-time">Just now</div>
                         </div>
                     </div>
                     <div class="chatbot-input">
-                        <input type="text" id="chatbot-input-field" placeholder="Ask about sustainable farming...">
+                        <input type="text" id="chatbot-input-field" placeholder="Ask about sustainability topics...">
                         <button id="chatbot-send"><i class="fas fa-paper-plane"></i></button>
                     </div>
                 </div>
