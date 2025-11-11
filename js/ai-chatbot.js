@@ -289,7 +289,7 @@ const AIChatbot = {
         
         // Sustainability-related responses
         if (message.includes('sustainability') || message.includes('green practices')) {
-            return "Sustainability means using resources wisely so the environment, society, and economy can benefit long-term. Want a quick note for your exam or project?;
+            return "Sustainability means using resources wisely so the environment, society, and economy can benefit long-term. Want a quick note for your exam or project?";
         }
         
         if (message.includes('problems') || message.includes('issues')) {
