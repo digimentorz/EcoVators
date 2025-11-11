@@ -280,44 +280,44 @@ const AIChatbot = {
         
         // Simple rule-based responses
         if (message.includes('hello') || message.includes('hi') || message.includes('hey')) {
-            return "Hello! How can I help with your farming questions today?";
+            return "Hello! What sustainability topic are you learning today?";
         }
         
         if (message.includes('thank')) {
             return "You're welcome! Feel free to ask if you have more questions.";
         }
         
-        // Farming-related responses
-        if (message.includes('pest') || message.includes('insect')) {
-            return "For sustainable pest management, consider companion planting with marigolds or neem-based solutions. Would you like specific recommendations for your crops?";
+        // Sustainability-related responses
+        if (message.includes('sustainability') || message.includes('green practices')) {
+            return "Sustainability means using resources wisely so the environment, society, and economy can benefit long-term. Want a quick note for your exam or project?;
         }
         
-        if (message.includes('water') || message.includes('irrigation')) {
-            return "Efficient water management is crucial for sustainable farming. Consider drip irrigation, mulching, and rainwater harvesting. These can reduce water usage by up to 60%.";
+        if (message.includes('problems') || message.includes('issues')) {
+            return "Environmental issues like pollution, waste generation, and plastic use are major topics in sustainability studies. Want solutions for school-level assignments or presentations?";
         }
         
-        if (message.includes('fertilizer') || message.includes('nutrient') || message.includes('soil')) {
-            return "For soil health, consider using compost, vermicompost, or green manures. These natural fertilizers improve soil structure and microbial activity while reducing chemical dependency.";
+        if (message.includes('save water') || message.includes('conserve') || message.includes('scarcity')) {
+            return "You can save water by taking shorter showers, turning off the tap while brushing teeth, and only running washing machines and dishwashers with full loads.";
         }
         
-        if (message.includes('crop rotation') || message.includes('rotate')) {
-            return "Crop rotation is excellent for soil health! It helps break pest cycles and balances soil nutrients. Try rotating legumes with grains for best results.";
+        if (message.includes('soil') || message.includes('formation')) {
+            return "Soil forms over long periods through a process called weathering, where rocks are broken down by physical, chemical, and biological agents";
         }
         
-        if (message.includes('organic') || message.includes('certification')) {
-            return "Organic certification typically requires 3 years of chemical-free farming. The process involves documentation, inspections, and following specific standards. Would you like more details?";
+        if (message.includes('climate') || message.includes('change')) {
+            return "Climate change is the term used to describe changes in the state of the climate that can be identified by changes in the average and/or the variability of its properties and that persists for an extended period, typically decades or longer.";
         }
         
-        if (message.includes('climate') || message.includes('weather')) {
-            return "Climate-resilient farming practices include using drought-resistant varieties, diversifying crops, and implementing agroforestry. These approaches can help mitigate climate change impacts.";
+        if (message.includes('global') || message.includes('warming')) {
+            return "Global warming is the long-term increase in Earth's average surface temperature, primarily caused by human activities like burning fossil fuels and deforestation";
         }
         
-        if (message.includes('market') || message.includes('sell') || message.includes('price')) {
-            return "For better market access, consider joining a Farmer Producer Organization (FPO) or exploring direct-to-consumer models like Community Supported Agriculture (CSA).";
+        if (message.includes('project') || message.includes('assignment') || message.includes('topic')) {
+            return "I can help you with project ideas, working models, charts, or quick study notes on any sustainability topic. What do you need?";
         }
         
         // Default response
-        return "That's an interesting question about sustainable farming. While I'm still learning, I recommend checking the Resources section for detailed information on this topic. Would you like to know about water conservation, organic pest management, or soil health instead?";
+        return "That’s a nice question! I might not have that exact topic ready, but I can help with climate topics, soil health, water conservation, or project guidance. What would you like to learn?";
     }
 };
 
