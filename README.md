@@ -69,7 +69,7 @@ The platform includes multilingual support, an offline-online integration system
 ## Prototype Development Journey
 
 EcoVators evolved through several steps:
-Idea formulation → problem analysis → feature planning → dashboard design → gamification engine → AI chatbot integration → multilingual support → offline syncing → testing → deployment.
+Idea formulation → problem analysis → feature planning → dashboard design → gamification engine → chatbot integration → multilingual support → offline syncing → testing → deployment.
 
 ---
 
